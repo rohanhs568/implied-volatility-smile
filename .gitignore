@@ -1,0 +1,72 @@
+# -------------------------
+# python general ignores
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.swp
+
+# virtual environments
+venv/
+env/
+.venv/
+
+# -------------------------
+# jupyter notebook ignores
+# -------------------------
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# kernel / config junk
+*.json
+*.tmp
+
+# -------------------------
+# OS-specific files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# build artifacts
+# -------------------------
+build/
+dist/
+*.egg-info/
+
+# -------------------------
+# large or temporary data
+# -------------------------
+*.npy
+*.npz
+*.csv
+*.txt
+*.dat
+
+# -------------------------
+# plots or figures auto-generated
+# (you can remove these patterns if
+# you want every image tracked)
+# -------------------------
+figs/*.png
+figs/*.jpg
+figs/*.svg
+
+# -------------------------
+# latex / pdf build junk
+# (but keep your final PDFs)
+# -------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# -------------------------
+# misc
+# -------------------------
+*.bak
+*.old
+*.tmp
